@@ -1,0 +1,48 @@
+/* Main  */
+
+main{
+    width:100%;
+    height:100vh;
+    color:white;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/img_Main.jpg') center center;
+    background-size:cover;
+    object-fit: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+main h2 {
+    color: white;
+    font-size: 3.5rem;
+}
+
+.div_division_line {
+    border-top: 3px solid #D1CCC8;
+    margin: 30px auto;
+    width: 40%;
+}
+
+.span_description {
+    color: white;
+    font-size: 1.5rem;
+}
+
+main .btn_findmore {
+    background-color:transparent;
+    border-radius:20px;
+    border:3px solid white;
+    padding:1rem 2rem;
+    font-size: 1rem;
+    margin-top:3rem;
+    cursor: pointer;
+    color:white;
+    font-weight:bold;
+}
+
+body {
+    height: 4000px;
+}
+
+/* End Main */

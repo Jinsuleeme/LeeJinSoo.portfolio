@@ -1,0 +1,95 @@
+/* section.css */
+
+/* about */
+#about {
+    background-color: white;
+}
+
+section h3 {
+    color: black;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: border;
+}
+
+.img_profile {
+    /* margin: 1rem 1rem; */
+    object-fit: fill;
+    size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+#about .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    text-align:center;
+    margin-left: 10vh;
+}
+
+.div_about_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+
+.div_about_subitem {
+    width: 50%;
+}
+
+.div_subitem_info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.img_subitem_icon {
+    width: 5vh;
+    height: 5vh;
+    margin-top: .2rem;
+    margin-right: 2rem;
+}
+
+.div_subitem_desc {
+    text-align: left;
+}
+
+
+.p_subitem_desc_label {
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.p_subitem_desc_value {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.title {
+    margin: 3rem;
+}
+
+/* End About */
+
+/* Skills */
+
+#skills {
+    background-color: #ABDEE6;
+}
+
+/* End Skills */
