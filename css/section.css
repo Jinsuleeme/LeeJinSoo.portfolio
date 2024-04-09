@@ -81,7 +81,11 @@ section h3 {
 }
 
 .title {
-    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 3rem; */
 }
 
 /* End About */
@@ -90,6 +94,52 @@ section h3 {
 
 #skills {
     background-color: #ABDEE6;
+    margin: 0 auto;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+#skills .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    height: 15%;
+    /* width: 90%; */
+    margin-top: 2vh;
+}
+
+#skills .div_bgrbox  {
+    background-color: white;
+    border-radius: 36px;
+    width: 45%;
+    height: 40vh;
+    padding-top: 2vh;
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* justify-content: center; */
+}
+
+.p_skills_title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ADBAC0;
+    margin-top: .5rem;
+    margin-left: 2rem;
+}
+
+.div_skills_division_line {
+    border-top: .15rem solid #D1CCC8;
+    margin-top: .8rem;
+    margin-left: 2rem;
+    width: 80%;
+}
+
+.img_skills {
+    padding: 0% 10% 5% 5%;
 }
 
 /* End Skills */

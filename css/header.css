@@ -16,6 +16,10 @@ a, a:link, a:visited {
     margin: 0 auto;
 }
 
+.box {
+    padding: 10vh 10vw;
+}
+
 header {
     position: fixed;                /* 위치고정 */
     color: white;                 
@@ -30,6 +34,7 @@ header .container {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    
     background-color: transparent;
 }
 
