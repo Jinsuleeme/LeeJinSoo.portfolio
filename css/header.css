@@ -22,7 +22,7 @@
 
 header {
     position: fixed;                /* 위치고정 */
-    color: white;                 
+    /* color: white;                  */
     top: 0;
     z-index: 1;                     /* z축 상단 고정*/
     width: 100%;
@@ -35,13 +35,22 @@ header .container {
     align-items: center;
     width: 100%;
     background-color: transparent;
+    color: transparent;
 }
+
+/* #nav_top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+} */
 
 header button {
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    color: white;                   /* 흐린 회색 : #D1CCC8 */
+    color: rgb(207, 203, 200);
 }
 
 header h1 button {
@@ -64,5 +73,22 @@ header nav {
     padding-top: 20px;
     padding-bottom: 20px;
     /* padding: 10px; */
+}
+
+.nav_changed_top {
+    background-color: white;
+    border-bottom: 1px solid #D1CCC8;
+}
+
+.nav_changed_btn {
+    color: black;
+}
+
+.nav_main_onmoused_btn {
+    color: white;
+}
+
+.nav_onmoused_btn {
+    color: orangered;
 }
 /* End header */

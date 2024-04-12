@@ -9,14 +9,15 @@
     <title>ljs-portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="nav_top">
         <div class="container">
-            <h1><button>LJS's Portfolio</button></h1>
+            <h1><button id="btn_logo" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">LJS's Portfolio</button></h1>
             <nav>
-                <button class="nav_btn" id="btn_About" onclick="btn_Click(event)">About Me</button>
-                <button class="nav_btn" id="btn_SignUp" onclick="btn_Click(event)">Skills</button>
-                <button class="nav_btn" id="btn_SignIn" onclick="btn_Click(event)">Projects</button>
-                <button class="nav_btn" id="btn_SignIn" onclick="btn_Click(event)">Career</button>
+                <button class="nav_btn" id="btn_about" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">About Me</button>
+                <button class="nav_btn" id="btn_skills" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">Skills</button>
+                <button class="nav_btn" id="btn_projects" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">Projects</button>
+                <button class="nav_btn" id="btn_activity" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">Activity</button>
+                <button class="nav_btn" id="btn_career" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">Career</button>
             </nav>
         </div>
     </header>
@@ -243,13 +244,25 @@
             </div>
         </div>
     </section>
+    <section id="sec_activity">
+        <div class="box">
+            <div class="title">
+                <h3>ACTIVITY</h3>
+                <div class="div_division_line"></div>
+            </div>
+            <div class="div_bgrbox">
+            </div>
+        </div>
+    </section>
     <section id="sec_career">
         <div class="box">
             <div class="title">
                 <h3>CAREER</h3>
                 <div class="div_division_line"></div>
             </div>
-            <div class="container"></div>
+            <div class="div_bgrbox">
+
+            </div>
             
         </div>
     </section>

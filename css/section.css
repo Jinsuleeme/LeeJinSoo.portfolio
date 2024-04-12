@@ -310,12 +310,36 @@ section h3 {
 
 /* End Projects */
 
+/* Activity */
+
+#sec_activity {
+    background-color: rgb(243, 176, 195);
+    width: 100vw;
+    height: 100vh;
+}
+
+#sec_activity .div_bgrbox {
+    background-color: white;
+    margin: 0 auto 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+/* End Activity */
+
 /* Career */
 
 #sec_career {
     background-color: #FFFFB5;
     width: 100vw;
     height: 100vh;
+}
+
+#sec_career .div_bgrbox {
+    background-color: white;
+    margin: 0 auto 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
 }
 
 /* End Career */
