@@ -9,14 +9,15 @@
     <title>ljs-portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="nav_top">
         <div class="container">
-            <h1><button>LJS's Portfolio</button></h1>
+            <h1><button id="btn_logo" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">LJS's Portfolio</button></h1>
             <nav>
-                <button class="nav_btn" id="btn_About" onclick="btn_Click(event)">About Me</button>
-                <button class="nav_btn" id="btn_SignUp" onclick="btn_Click(event)">Skills</button>
-                <button class="nav_btn" id="btn_SignIn" onclick="btn_Click(event)">Projects</button>
-                <button class="nav_btn" id="btn_SignIn" onclick="btn_Click(event)">Career</button>
+                <button class="nav_btn" id="btn_about" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">About Me</button>
+                <button class="nav_btn" id="btn_skills" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">Skills</button>
+                <button class="nav_btn" id="btn_projects" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">Projects</button>
+                <button class="nav_btn" id="btn_activity" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">Activity</button>
+                <button class="nav_btn" id="btn_career" onclick="btn_Click(event)" onmouseover="btn_MouseOver(event)" onmouseout="btn_MouseOut(event)">Career</button>
             </nav>
         </div>
     </header>
@@ -34,10 +35,10 @@
             </div>
         </div>
     </main>
-    <section id="about">
+    <section id="sec_about">
         <div class="box">
             <div class="title">
-                <h3>About Me</h3>
+                <h3>ABOUT ME</h3>
                 <div class="div_division_line"></div>
             </div>
             <div class="container">
@@ -127,10 +128,10 @@
             </div>
         </div>
     </section>
-    <section id="skills">
+    <section id="sec_skills">
         <div class="box">
             <div class="title">
-                <h3>Skills</h3>
+                <h3>SKILLS</h3>
                 <div class="div_division_line"></div>
             </div>
             <div class="container">
@@ -155,6 +156,114 @@
                     <img class="img_skills" src="./images/section_skills/img_icon_versioncontrol.PNG" alt="version control skill">
                 </div>
             </div>
+        </div>
+    </section>
+    <section id="sec_projects">
+        <div class="box">
+            <div class="title">
+                <h3>PROJECTS</h3>
+                <div class="div_division_line"></div>
+            </div>
+            <div class="div_bgrbox">
+                <div class="div_project_title">FAB Simulator</div>
+                <div class="div_project_period">2022.8 ~ 2022.10 (2人 팀 프로젝트)</div>
+                <div class="div_project_descbox">
+                    <div class="div_project_imgFrame">
+                        <img class="img_project" src="./images/projects/img_projects_fab_simulator.PNG"></img>
+                        <div class="div_project_imgChangeNavBar">
+                            <div class="div_project_preImg">&lt;</div>
+                            <div class="div_project_pageImg">1/3</div>
+                            <div class="div_project_nextImg">&gt;</div>
+                        </div>
+                    </div>
+                    <div class="div_project_descFrame">
+                        <div class="div_project_descMain">
+                            <b>증착 장비 모듈을 시뮬레이션하기 위한 MFC 기반 윈도우 응용프로그램</b>입니다.
+                            모듈 별 작동 시간을 고려하여 고객이 최적의 모듈 구성을 할 수 있도록 개발했습니다.
+                            <br><br>
+                            공부하고 있던 C++ MFC를 어쩌고 저쩌고dsafsafasfasfaaaaaaaaaaaaaaaaaaaaa
+                            <br><br>
+                            멀티쓰레드를 어쩌고 저쩌고dsafsafasfasfaaaaaaaaaaaaaaaaaaaaa
+                            <br><br>
+                            프로젝트 산출물이 어쩌고 저쩌고dsafsafasfasfaaaaaaaaaaaaaaaaaaaaa
+                        </div>
+                        <div class="div_project_descNavBar">
+                            <div class="div_project_desc_readme">자세히 보기 ▶<br>READ ME</div>
+                            <div class="div_project_desc_deliverable">자세히 보기 ▶<br>프로젝트 산출물</div>
+                        </div>
+                        <div class="div_division_line"></div>
+                        <div class="div_project_description">
+                            <div class="div_project_desc_label">주요 기능</div>
+                            <div class="div_project_desc_value">
+                                증착 장비 모듈 구성 및 시뮬레이션, ini(config)파일 I/O, csv파일 I/O, Throuput 그래프 표현, 각 모듈 정보 출력
+                            </div>
+                        </div>
+                        <div class="div_project_description">
+                            <div class="div_project_desc_label">GitHub</div>
+                            <div class="div_project_desc_value">
+                                <a href="https://github.com/Ox399-B-Team/FabSimulator_">https://github.com/Ox399-B-Team/FabSimulator_</a>
+                            </div>
+                        </div>
+                        <div class="div_project_description">
+                            <div class="div_project_desc_label">URL</div>
+                            <div class="div_project_desc_value">
+                                ASDF.exe
+                            </div>
+                        </div>
+                        <div class="div_project_description">
+                            <div class="div_project_desc_label">Frontend</div>
+                            <div class="div_project_desc_value">
+                                MFC, C++
+                            </div>
+                        </div>
+                        <div class="div_project_description">
+                            <div class="div_project_desc_label">Backend</div>
+                            <div class="div_project_desc_value">
+                                -
+                            </div>
+                        </div>
+                        <div class="div_project_description">
+                            <div class="div_project_desc_label">Database</div>
+                            <div class="div_project_desc_value">
+                                -
+                            </div>
+                        </div>
+                        <div class="div_project_description">
+                            <div class="div_project_desc_label">Deployment</div>
+                            <div class="div_project_desc_value">
+                                -
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <section id="sec_activity">
+        <div class="box">
+            <div class="title">
+                <h3>ACTIVITY</h3>
+                <div class="div_division_line"></div>
+            </div>
+            <div class="div_bgrbox">
+            </div>
+        </div>
+    </section>
+    <section id="sec_career">
+        <div class="box">
+            <div class="title">
+                <h3>CAREER</h3>
+                <div class="div_division_line"></div>
+            </div>
+            <div class="div_bgrbox">
+
+            </div>
+            
         </div>
     </section>
 
