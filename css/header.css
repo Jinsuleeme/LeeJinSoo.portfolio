@@ -6,13 +6,13 @@
     box-sizing:border-box;
 }
 
-a, a:link, a:visited {  
+#header a, #header a:link, #header a:visited {  
     color: inherit; 
     text-decoration: none;          /* 링크 효과 제거 */
 }
 
 .container {
-    width: 1140px;
+    /* width: 1140px; */
     margin: 0 auto;
 }
 
@@ -34,7 +34,6 @@ header .container {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    
     background-color: transparent;
 }
 
