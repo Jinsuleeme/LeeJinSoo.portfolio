@@ -12,12 +12,13 @@ a, a:link, a:visited {
 }
 
 .container {
-    width: 1140px;
+    /* width: 1140px; */
     margin: 0 auto;
 }
 
 .box {
     padding: 10vh 10vw;
+    /* text-align: center; */
 }
 
 header {

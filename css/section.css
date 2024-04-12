@@ -16,23 +16,25 @@ section h3 {
     /* margin: 1rem 1rem; */
     object-fit: fill;
     size: cover;
-    width: 40vh;
+    width: 38vh;
     height: 50vh;
 }
 
 #about .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .div_about {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items:center;
     text-align:center;
-    margin-left: 10vh;
+    margin-left: 5vh;
+    width: 40vw;
 }
 
 .div_about_item {
@@ -105,8 +107,7 @@ section h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
-    height: 15%;
-    /* width: 90%; */
+    /* height: 15%; */
     margin-top: 2vh;
 }
 
@@ -120,7 +121,7 @@ section h3 {
     display: flex;
     flex-direction: column;
     align-items: left;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .p_skills_title {
@@ -139,6 +140,7 @@ section h3 {
 }
 
 .img_skills {
+    width: 100%;
     padding: 0% 10% 5% 5%;
 }
 
