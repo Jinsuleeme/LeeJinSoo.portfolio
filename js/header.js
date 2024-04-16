@@ -29,6 +29,12 @@ window.addEventListener('scroll', function (event) {
 });
 
 
+// 우측 하단 버튼 클릭
+document.querySelector('.div_main_pageup').addEventListener('click', function(){
+    console.log("asdf");
+    scroll({ top: 0, left: 0, behavior: "smooth" });
+})
+
 // Nav btn Mouse Over 시 색 변경
 function btn_MouseOver(event) {
     let currentID = this.document.getElementById(event.target.id);
@@ -82,6 +88,10 @@ function btn_Click(event) {
 
         case "btn_career":
             scroll({ top: careerSectionTop, left: 0, behavior: "smooth" });
+            break;
+
+        case "btn_findmore":
+            scroll({ top: aboutSectionTop, left: 0, behavior: "smooth" });
             break;
     }
 }

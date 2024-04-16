@@ -29,7 +29,7 @@ main h2 {
     font-size: 1.5rem;
 }
 
-main .btn_findmore {
+#btn_findmore {
     background-color:transparent;
     border-radius:20px;
     border:3px solid white;
@@ -39,5 +39,17 @@ main .btn_findmore {
     cursor: pointer;
     color:white;
     font-weight:bold;
+}
+
+.div_main_pageup {
+    position: fixed;
+    right: 3vw;
+    bottom: 3vh;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.img_main_pageup {
+    width: 3vw;
 }
 /* End Main */
