@@ -1,0 +1,163 @@
+/* section_projects.css */
+#sec_projects {
+    background-color: #FFCCB6;
+    width: 100vw;
+}
+
+#sec_projects .div_bgrbox {
+    background-color: white;
+    margin: 0 auto 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.div_project_title {
+    font-size: 2rem;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.div_project_period {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c757d;
+    text-align: center;
+    opacity: .8;
+    margin-bottom: 2rem;
+}
+
+.div_project_descbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div_project_imgFrame {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 50%;
+    height: 100%;
+}
+
+.img_project {
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+}
+
+.div_project_imgChangeNavBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.div_project_preImg {
+    margin: 0 3% 0 3%;
+    font-weight: bold;
+}
+
+.div_project_pageImg {
+    margin: 0 3% 0 3%;
+    font-weight: bold;
+}
+
+.div_project_nextImg {
+    margin: 0 3% 0 3%;
+    font-weight: bold;
+}
+
+.div_project_descFrame {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    margin-left: 2%;
+    width: 48%;
+    height: 100%;
+}
+
+.div_project_descMain {
+    background-color: inherit;
+    font-size: 1rem;
+}
+
+.div_project_descNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.div_project_desc_readme {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: .25rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    width: 45%;
+}
+
+.div_project_desc_deliverable {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: .25rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    width: 45%;
+}
+
+#sec_projects .div_division_line {
+    border-top: 1px solid #D1CCC8;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.div_project_description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: .8rem;
+}
+
+.div_project_desc_label {
+    display: inline-block;
+    vertical-align: top;
+    width: 8.4rem;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.div_project_desc_label::before {
+    content: "✔";
+    display: inline;
+    padding-right: 1rem;
+}
+
+.div_project_desc_value {
+    display: inline-block;
+    vertical-align: bottom;
+    width: calc(100% - 8.4rem);
+    font-weight: 400;
+    font-size: 1rem;
+    word-break: break-all
+}
+
+#sec_projects a:visited {
+    color: #258ddb;
+}
+
+/* End Projects */

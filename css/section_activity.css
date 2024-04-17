@@ -1,0 +1,52 @@
+/* section_activity.css */
+
+#sec_activity {
+    background-color: rgb(243, 176, 195);
+    width: 100vw;
+}
+
+#sec_activity .div_bgrbox {
+    background-color: white;
+    margin: 0 auto 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.div_activity_frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:start;
+    margin-top: 3vh;
+}
+
+.img_activity_logo {
+    width: 20%;
+    margin-right: 5vw;
+}
+
+.div_activity_title {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.div_activity_period {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c757d;
+    opacity: .8;
+    margin-bottom: .8rem;
+    margin-top: .4rem;
+}
+
+.div_activity_frame_contents {
+    width: 50%;
+}
+
+#sec_activity .div_division_line {
+    width: 75%;
+    border-top: .1rem solid #D1CCC8;
+}
+
+/* End Activity */

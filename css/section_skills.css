@@ -1,0 +1,49 @@
+/* section_skills.css */
+
+#sec_skills {
+    background-color: #ABDEE6;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+#sec_skills .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:start;
+    margin-top: 2vh;
+}
+
+#sec_skills .div_bgrbox  {
+    background-color: white;
+    border-radius: 36px;
+    padding: 2vh 1vw 1vh 1vw;
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+}
+
+.p_skills_title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ADBAC0;
+    margin-top: .5rem;
+    margin-left: 1.2rem;
+}
+
+.div_skills_division_line {
+    border-top: .15rem solid #D1CCC8;
+    margin-top: .8rem;
+    margin-left: 1.2rem;
+    width: 80%;
+}
+
+.img_skills {
+    /* width: 90%;     */
+    height: 100px;
+    padding: 2% 10% 5% 5%;
+}
+
+/* End Skills */

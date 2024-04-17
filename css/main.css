@@ -51,5 +51,14 @@ main h2 {
 
 .img_main_pageup {
     width: 3vw;
+    visibility: hidden;
+}
+
+.img_main_pageup_visible_on {
+    visibility: visible;
+}
+
+.img_main_pageup_visible_off {
+    visibility: hidden;
 }
 /* End Main */
