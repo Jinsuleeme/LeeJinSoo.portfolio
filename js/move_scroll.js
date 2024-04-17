@@ -9,7 +9,7 @@ window.addEventListener('scroll', function (event) {
     let aboutSectionTop = window.scrollY + document.getElementById("sec_about").getBoundingClientRect().top;
 
     if (window.scrollY < aboutSectionTop) {
-        // About ME 이상 스크롤시 글자색 black 
+        // About ME 미만 스크롤시 글자색 gray 
         this.document.querySelector("#nav_top").classList.remove("nav_changed_top");
         this.document.querySelector("#btn_logo").classList.remove("nav_changed_btn");
         this.document.querySelector("#btn_logo").classList.remove("nav_main_onmoused_btn");
